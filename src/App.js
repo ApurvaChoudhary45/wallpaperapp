@@ -18,9 +18,10 @@ function App() {
 
         />
         <Routes>
-          <Route exact path="/" element={<Picture setprogress = {setprogress}  key="home" category="home" />} />
+          <Route exact path="/" element={<Picture setprogress = {setprogress}  key="random" category="random" />} />
           <Route exact path="/home" element={<Picture setprogress = {setprogress} key="home" category="home" />} />
           <Route exact path="/nature" element={<Picture setprogress = {setprogress} key="nature" category="nature" />} />
+          <Route exact path="/food" element={<Picture setprogress = {setprogress} key="food" category="food" />} />
           <Route exact path="/animals" element={<Picture setprogress = {setprogress} key="animals" category="animals" />} />
           <Route exact path="/cars" element={<Picture setprogress = {setprogress}  key="cars" category="cars" />} />
           <Route exact path="/health" element={<Picture setprogress = {setprogress} key="health" category="health" />} />
